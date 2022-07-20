@@ -13,6 +13,11 @@ public class Estagiario implements Reembolso {
         this.disciplina = disciplina;
     }
 
+    @Override
+    public void reembolsoDeGastos() {
+        Reembolso.super.reembolsoDeGastos();
+    }
+
     public String getNome() {
         return nome;
     }
